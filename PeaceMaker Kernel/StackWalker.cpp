@@ -135,6 +135,7 @@ StackWalker::WalkAndResolveStack (
 	
 	capturedReturnPtrs = 0;
 	*ResolvedStack = NULL;
+	*ResolvedStackSize = 0;
 
 	//
 	// Allocate space for the return addresses.
